@@ -1,0 +1,9 @@
+0,1 = correrSinBalon(c, atras); correrSinBalon(e, atras);
+1,1 = correrSinBalon(c, atras); correrSinBalon(e, atras);
+2,1 = correrSinBalon(c, atras); correrSinBalon(e, atras);
+0,2 = correrSinBalon(c, atras); correrSinBalon(e, atras);
+1,2 = correrSinBalon(c, atras); correrSinBalon(e, atras);
+2,2 = correrSinBalon(c, atras); correrSinBalon(e, atras);
+0,3 = correrSinBalon(c, atras); correrSinBalon(e, atras);
+1,3 = correrSinBalon(c, atras); correrSinBalon(e, atras);
+2,3 = correrSinBalon(c, atras); correrSinBalon(e, atras);

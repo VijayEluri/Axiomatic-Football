@@ -1,0 +1,33 @@
+The game's state will be composed by a 29 digit number, formed as follows:
+	The first 10 digits will correspond to the first team's members positions (a1x,a1y,b1x,b1y,c1x,c1y,d1x,d1y,e1x,e1y)
+	The following 10 digits will correspond to the second team's members positions (a2x,a2y,b2x,b2y,c2x,c2y,d2x,d2y,e2x,e2y)
+	The following 3 digits will represent the ball position and the team it belongs to (Bx,By,team)
+	The following 4 digits will represent the match score, being the maximum number of goals 99. (S10,S11,S20,S21)
+	The last 3 digits will represent the number of turns that has taken place in the current time and the current time. (time,turns)
+
+
+The original positions programmed by the teams plus the score, the ball belonging and its position will work as the axiom from where the formal system will be derived.
+
+The transformation rules will be the actions selected by the teams.
+
+The basic actions will be represented as follows:
+	The team parameter represents the team who called the action, for this reason it isn't included in the strategy archives.
+	
+	index(jugador,team) -> (x,y) where x & y are the indexes of the player position in the word-state.
+	direction(direccion,team) -> (dx,dy) where dx & dy are the changes in x & y for that direction for that team.
+	
+	
+	correrSinBalon(jugador, direccion) -> +(index(jugador,team),direction(direccion,team)) {Se suma a la posición del jugador la dirección que este desea tomar}
+	andarConBalon(direccion) -> mover jugador, mover balón, evaluar quien se queda con el balón.
+	pasarElBalon -> mover el balon y comparar si hay alguien del equipo en esa casilla, si no tiro al arco. 
+	tirarAlArco -> mover el balon al arco, cambiar estrategias y evaluar si hubo o no gol.
+	
+	
+Cada accion es un número que se suma al estado, en caso de que la suma de un número inconsistente se vuelve al estado inmediatamente anterior descartando la acción que lo llevo a dicho estado.
+
+*Read original positions from archives and create axiom.
+*Read strategies and create strategy table.
+*Evaluate strategies and act consequentially x 50. First defendant, next attacker.
+
+
+

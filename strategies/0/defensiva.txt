@@ -1,0 +1,10 @@
+1,0=;
+0,1=correrSinBalon(c,izquierda);correrSinBalon(b,adelante);correrSinBalon(d,derecha);
+1,1=correrSinBalon(c,derecha);correrSinBalon(e,izquierda);correrSinBalon(b,adelante);
+2,1=correrSinBalon(c,derecha);correrSinBalon(b,adelante);correrSinBalon(d,izquierda);
+0,2=correrSinBalon(d,izquierdaq);correrSinBalon(c,izquierda);correrSinBalon(e,derecha);
+1,2=correrSinBalon(e,derecha);correrSinBalon(b,atras);correrSinBalon(d,izquierda);
+2,2=correrSinBalon(b,atras);correrSinBalon(e,derecha);correrSinBalon(c,derecha);
+0,3=correrSinBalon(b,atras);correrSinBalon(d,derecha);correrSinBalon(c,derecha);
+1,3=correrSinBalon(b,atras);correrSinBalon(d,derecha);correrSinBalon(c,izquierda);
+2,3=correrSinBalon(d,derecha);correrSinBalon(e,izquierda);correrSinBalon(b,atras);

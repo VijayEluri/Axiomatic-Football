@@ -1,0 +1,10 @@
+1,0=pasar(adelante);correrSinBalon(e,adelante);
+0,1=pasar(adelante);correrSinBalon(e,izquierda);correrSinBalon(d,izquierda);
+1,1=pasar(adelante);correrSinBalon(e,izquierda);
+2,1=andarConBalon(izquierda);correrSinBalon(e,derecha);correrSinBalon(d,derecha);
+0,2=correrSinBalon(e,derecha);andarConBalon(adelante);correrSinBalon(d,derecha);
+1,2=pasar(adelante);correrSinBalon(b,adelante);correrSinBalon(c,derecha);
+2,2=pasar(adelante);correrSinBalon(b,adelante);
+0,3=tirar();correrSinBalon(e,derecha);correrSinBalon(d,izquierda);
+1,3=tirar();correrSinBalon(d,derecha);correrSinBalon(b,adelante);
+2,3=tirar();correrSinBalon(b,atras);correrSinBalon(d,derecha);

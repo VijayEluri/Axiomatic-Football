@@ -1,0 +1,10 @@
+0,1=o,b,v;o,c,v;o,d,v;
+1,1=o,b,v;o,c,v;o,e,f;
+2,1=o,b,v;o,d,v;o,e,f;
+0,2=o,b,v;o,c,v;o,c,f;
+1,2=o,b,v;o,d,v;o,e,v;
+2,2=o,c,v;o,b,f;o,e,f;
+0,3=o,b,f;o,d,v;o,c,f;
+1,3=o,d,v;o,c,f;o,b,f;
+2,3=o,e,v;o,b,f;o,e,v;
+1,4=o,b,v;o,c,v;o,d,v;

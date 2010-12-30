@@ -1,0 +1,10 @@
+1,0=p,f;o,e,f;
+0,1=p,f;o,e,l;o,d,l;
+1,1=p,f;o,e,l;
+2,1=n,l;o,e,r;o,d,r;
+0,2=o,e,r;n,f;o,d,r;
+1,2=p,f;o,b,f;o,c,r;
+2,2=p,f;o,b,f;
+0,3=t,;o,e,r;o,d,l;
+1,3=t,;o,d,r;o,b,f;
+2,3=t,;o,b,v;o,d,r;

@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata&subset=latin);
+
+
+div#wrapper{
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:50px;
+}
+div#header{
+	display:block;
+	margin-left:57%;
+	width:40%;
+}
+
+div#header >*> a:link , div#header >*> a:visited{
+	font-family: 'Inconsolata', arial, serif;
+	font-size:13pt;
+	text-decoration:none;
+	color:#000000;
+	padding-left:35px;
+	
+}
+div#header >*> a:hover , div#header >*> a:active{
+	text-decoration:underline;
+}
+div#header>div{
+	display:block;
+	height:24px;
+	margin-left:17%;
+	
+}
+div#header > div#download_link{
+	background-image:url(imgs/icons.png);
+	background-repeat:no-repeat;
+	background-position:0px -1px;
+}
+div#header > div#sf_link{
+	background-image:url(imgs/icons.png);
+	background-repeat:no-repeat;
+	background-position:0px -23px;
+}
+div#header > div#contact_link{
+	background-image:url(imgs/icons.png);
+	background-repeat:no-repeat;
+	background-position:0px -46px;
+}
+
+span#language_bar{
+	display:block;
+	margin-top:10px;
+	margin-bottom:75px;
+	margin-left:15%;
+	color:#606060;
+}
+
+span#language_bar > a:link, span#language_bar > a:visited{
+	font-family: 'Inconsolata', arial, serif;
+	font-size:12pt;
+	text-decoration:none;
+	color:#606060;
+
+}
+span#language_bar > a:hover, span#language_bar > a:active{
+	text-decoration:underline;
+}
+span#language_bar > a.selected{
+	color:#000000;
+}
+
+div#content{
+	display:block;
+	width:42%;
+	margin-left:15%;
+	font-family:  Verdana, Geneva, Tahoma, sans-serif;
+	font-size:10pt;
+	
+}
+div#content >p{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+div#content > b{
+	font-weight:bold;
+}
+
+div#content > p.remark{
+	font-size:10.5pt;
+	margin-top:30px;
+	margin-bottom:30px;
+	line-height:20px;
+}
+
+div#content > h1:before{
+	content:url(imgs/heading.png);
+	padding-right:20px;
+	
+	
+}
+div#content > h1{
+	font-family: 'Inconsolata', arial, serif;
+	font-size:18pt;
+	margin-top:30px;
+	margin-bottom:30px;
+} 
